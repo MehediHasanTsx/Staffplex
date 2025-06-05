@@ -31,7 +31,7 @@
 .navlink {
     display: flex;
     flex-direction: row;
-    gap: 40px;
+    gap: 30px;
     justify-content: center;
 }
 
@@ -51,7 +51,7 @@
 
 .btn a {
     text-decoration: none;
-    font-size: 20px;
+    font-size: 22px;
     font-weight: 500;
     color: rgba(255, 255, 255, 0.886);
     padding-top: 15px;
@@ -60,4 +60,38 @@
     padding-right: 30px;
     background-color: #007EE5;
     border-radius: 12px;
+}
+
+.Hero-wrapper{
+    margin-left: 30px;
+    margin-right: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: top;
+    justify-content: space-between;
+    gap: 40px;
+    padding-top: 30px;
+}
+
+.Hero-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    gap: 40px;
+}
+
+.Hero-text h1{
+    font-size: 58px;
+}
+
+.Hero-text p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    padding-bottom: 30px;
+}
+
+.Hero-image img{
+    max-width: 850px;
 }
