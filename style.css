@@ -19,6 +19,15 @@
     padding-bottom: 30px;
 }
 
+.navbar {
+    position: sticky;
+    top: 0%;
+    right: auto;
+    left: auto;
+    bottom: auto;
+    background-color: white;
+}
+
 .navbar-wrapper {
     display: flex;
     flex-direction: row;
@@ -26,6 +35,7 @@
     align-items: center;
     margin-left: 30px;
     margin-right: 30px;
+
 }
 
 .navlink {
@@ -62,7 +72,13 @@
     border-radius: 12px;
 }
 
-.Hero-wrapper{
+.Hero {
+  background-image: url('/staffplex_asset/hero\ background.png');
+  background-size: cover;
+  background-position: top;
+}
+
+.Hero-wrapper {
     margin-left: 30px;
     margin-right: 30px;
     display: flex;
@@ -73,18 +89,18 @@
     padding-top: 30px;
 }
 
-.Hero-text{
+.Hero-text {
     display: flex;
     flex-direction: column;
     justify-content: left;
     gap: 40px;
 }
 
-.Hero-text h1{
+.Hero-text h1 {
     font-size: 58px;
 }
 
-.Hero-text p{
+.Hero-text p {
     font-size: 18px;
     font-weight: 400;
     line-height: 24px;
@@ -92,6 +108,36 @@
     padding-bottom: 30px;
 }
 
-.Hero-image img{
+.Hero-image img {
     max-width: 850px;
+}
+
+.Video-wrapper {
+    margin-left: 30px;
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding-top: 30px;
+}
+
+.Video-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+}
+
+.Video-text h2 {
+    font-size: 48px;
+}
+
+.Video-text p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    padding-bottom: 20px;
 }
