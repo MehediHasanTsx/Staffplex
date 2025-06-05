@@ -73,9 +73,9 @@
 }
 
 .Hero {
-  background-image: url('/staffplex_asset/hero\ background.png');
-  background-size: cover;
-  background-position: top;
+    background-image: url('/staffplex_asset/hero\ background.png');
+    background-size: cover;
+    background-position: top;
 }
 
 .Hero-wrapper {
@@ -139,5 +139,81 @@
     font-weight: 400;
     line-height: 24px;
     text-align: center;
+    padding-bottom: 20px;
+}
+
+.Hiring {
+    background-image: url('/staffplex_asset/hero\ background.png');
+
+}
+
+.Hiring-wrapper {
+    margin-left: 30px;
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding-top: 30px;
+}
+
+.Hiring-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+}
+
+.Hiring-text h2 {
+    font-size: 48px;
+    text-align: center;
+}
+
+.Hiring-text p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.Hiring_cards {
+    margin: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+
+}
+
+.Hiring_card_1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 40px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 40px;
+}
+
+
+.card_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    max-width: 420px;
+}
+
+.card_text h3 {
+    font-size: 32px;
+    text-align: left;
+}
+
+.card_text p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
     padding-bottom: 20px;
 }
