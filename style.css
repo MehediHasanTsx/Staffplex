@@ -256,7 +256,7 @@
     margin: auto;
     /* padding-left: 20px; */
     /* padding-right: 20px; */
-     gap: 60px;
+    gap: 60px;
 }
 
 .Result_card_1 {
@@ -265,13 +265,13 @@
     justify-content: center;
     align-items: center;
     gap: 60px;
-     padding-left: 10px; 
+    padding-left: 10px;
     padding-top: 40px;
     padding-bottom: 40px;
     padding-right: 10px;
     background-color: rgb(245, 245, 245);
     border-radius: 30px;
-   
+
 }
 
 .Card_1_text {
@@ -296,7 +296,7 @@
     max-width: 500px;
 }
 
-.Card_image{
+.Card_image {
     align-items: center;
     justify-content: center;
 }
